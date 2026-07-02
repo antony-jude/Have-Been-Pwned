@@ -12,7 +12,9 @@ A privacy-conscious security dashboard that analyzes password strength, detects 
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![Status](https://img.shields.io/badge/Status-Portfolio_Project-ff7133)](#)
 
-[![Live](https://have-been-pwned.vercel.app/)
+[**🌐 View Live Demo**](https://have-been-pwned.vercel.app/) · [**Explore the Code**](https://github.com/antony-jude/Have-Been-Pwned)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fantony-jude%2FHave-Been-Pwned)
 
 </div>
 
