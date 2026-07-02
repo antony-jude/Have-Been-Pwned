@@ -12,6 +12,8 @@ A privacy-conscious security dashboard that analyzes password strength, detects 
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![Status](https://img.shields.io/badge/Status-Portfolio_Project-ff7133)](#)
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fantony-jude%2FHave-Been-Pwned)
+
 </div>
 
 ---
@@ -80,6 +82,12 @@ npm run dev
 ```
 
 The frontend opens at `http://localhost:5173` and the API server runs at `http://localhost:3001`.
+
+## Deploy to Vercel
+
+The repository includes a production-ready `vercel.json` and serverless functions under `/api`. Import the repository into Vercel or use the deploy button above. Keep the project **Root Directory** set to the repository root; the included configuration installs and builds the client automatically.
+
+No environment variables are required for the current public breach-data providers. Production requests use same-origin `/api` routes, while Vite proxies those routes to the Express server during local development.
 
 ### Useful commands
 

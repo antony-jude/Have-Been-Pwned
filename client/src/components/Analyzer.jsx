@@ -37,7 +37,7 @@ export default function Analyzer() {
       const prefix = fullHash.substring(0, 5);
       const suffix = fullHash.substring(5);
 
-      const res = await fetch(`http://localhost:3001/api/pwned-check/${prefix}`);
+      const res = await fetch(`/api/pwned-check/${prefix}`);
       if (!res.ok) throw new Error('API server error');
 
       const text = await res.text();
@@ -96,7 +96,7 @@ export default function Analyzer() {
     setEmailBreach({ state: 'checking', data: null, error: null });
 
     try {
-      const res = await fetch(`http://localhost:3001/api/email-check/${encodeURIComponent(email)}`);
+      const res = await fetch(`/api/email-check/${encodeURIComponent(email)}`);
       
       if (!res.ok) {
         throw new Error('API server error');
